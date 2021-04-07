@@ -1,7 +1,7 @@
 ---
 - name: Install docker
   gather_facts: No
-  hosts: prod
+  hosts: all
   become: true
 
   pre_tasks:
